@@ -39,6 +39,18 @@ You can also use the preview version alongside the stable release to get early a
   </a>
 </p>
 
+### commandLign install
+install with "winget" command with shell or MINGW64 (git-shell/git-bash/git-cmd)
+
+(need open windows store and "update" the first time you use it)
+```properties
+winget upgrade --id FilesCommunity.Files -e
+```
+### update 
+```properties
+winget update --all
+```
+
 ## Building from source
 
 Instructions for building the source code can be found on our [documentation site](https://files.community/docs/contributing/building-from-source).
